@@ -9,11 +9,11 @@ npm/cnpm install
 npm/cnpm run dev
 path: '/table'  # demo 路由
 ```
-## 定义组件
-+ components目录下的 *WxfTable.vue*
+## 定义table组件
++ components目录下的 `WxfTable.vue`
 
-## 使用组件
-+ pages目录下的 *UseTable.vue*
+## 使用table组件
++ pages目录下的 `UseTable.vue`
 
 路由`router/index.js`
 ```javascript
@@ -56,5 +56,6 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
-
 ```
+## 表格分页器
++ components目录下的 `WxfSorter.vue`
