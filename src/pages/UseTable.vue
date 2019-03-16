@@ -1,11 +1,17 @@
 <template>
     <div class="UseTable">
         <wxf-table style="height: 500px; width:100%;" :data="dataTable"></wxf-table>
+        <wxf-sorter pos='center' style="position: relative"
+          @prevPage="onPrev"
+          @nextPage="onNext"
+          @curPage="onCur">
+        </wxf-sorter>
     </div>
 </template>
 <script>
 /* eslint-disable */
     import WxfTable from './../components/WxfTable'
+    import WxfSorter from './../components/WxfSorter'
     export default {
         name: 'UseTable',
         data() {
@@ -71,6 +77,6 @@
             }
         },
         methods: {},
-        components: {WxfTable}
+        components: {WxfTable,WxfSorter}
     }
 </script>

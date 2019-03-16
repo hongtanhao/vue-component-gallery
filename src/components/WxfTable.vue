@@ -46,13 +46,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
-table, td, th {
-    border: 1px solid #eeeeee;
-}
 .table-style {
   width: 100%;
   border-collapse: collapse;
+  border: 1px solid #eeeeee;
+}
+.table-tr, .table-tr td{
+  border: 1px solid #eeeeee;
 }
 .table-tr:hover{
   background-color: #eeeeee;
