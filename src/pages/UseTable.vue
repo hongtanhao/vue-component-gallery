@@ -12,6 +12,8 @@
 /* eslint-disable */
     import WxfTable from './../components/WxfTable'
     import WxfSorter from './../components/WxfSorter'
+    import TableHead from './table-head.json';
+    import TableBody from './table-body.json';
     export default {
         name: 'UseTable',
         data() {
@@ -23,56 +25,8 @@
                         style: 'normal', // 表格风格
                         thHeight: '40'
                     },
-                    tcols: [
-                        {
-                            name: 'order',
-                            lable: '序号'
-                        },
-                        {
-                            name: 'date',
-                            lable: '时间'
-                        }, {
-                            name: 'name',
-                            lable: '姓名'
-                        }, {
-                            name: 'address',
-                            lable: '地址'
-                        },
-                        {
-                            name: 'address',
-                            lable: '地址'
-                        },
-                        {
-                            name: 'phone',
-                            lable: '电话'
-                        }
-                    ],
-                    trows: [
-                        {   order: 1,
-                            date: '2016-05-02',
-                            name: '王小虎',
-                            address: '上海市普陀区金沙江路 1518 弄',
-                            phone: '1253687989899'
-                        }, {
-                            order: 2,
-                            date: '2016-05-04',
-                            name: '王小虎',
-                            address: '上海市普陀区金沙江路 1517 弄',
-                            phone: '1253687989899'
-                        }, {
-                            order: 3,
-                            date: '2016-05-01',
-                            name: '王小虎',
-                            address: '上海市普陀区金沙江路 1519 弄',
-                            phone: '1253687989899',
-                        }, {
-                            order: 4,
-                            date: '2016-05-03',
-                            name: '王小虎',
-                            address: '上海市普陀区金沙江路 1516 弄',
-                            phone: '1253687989899'
-                        }
-                    ]
+                    tcols: TableHead,
+                    trows: TableBody // 生产中通过接口拿（即查询数据库中记录）
                 }
             }
         },

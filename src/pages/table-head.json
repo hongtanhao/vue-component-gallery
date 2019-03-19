@@ -1,0 +1,22 @@
+[{
+  "name": "order",
+  "lable": "序号"
+},
+{
+  "name": "date",
+  "lable": "时间"
+}, {
+  "name": "name",
+  "lable": "姓名"
+}, {
+  "name": "address",
+  "lable": "地址"
+},
+{
+  "name": "address",
+  "lable": "地址"
+},
+{
+  "name": "phone",
+  "lable": "电话"
+}]

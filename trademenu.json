@@ -1,0 +1,775 @@
+[
+    [
+        {
+            "categoryName": "常用业务",
+            "themeColor": "#3e9cff",
+            "layout": [
+                3, 2
+            ],
+            "items": [
+                {
+                    "id": "zzkk",
+                    "tradeName": "借记卡开卡",
+                    "icon": "static/resource/trademenu/new/zizhukaika.svg",
+                    "size": "normal",
+                    "activeClass": "test-class",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/auto-create-card/AutoCreateCard.tad",
+                    "code": "1001"
+                }, {
+                    "tradeName": "借记卡激活",
+                    "icon": "/static/resource/trademenu/new/kajihuo.svg",
+                    "size": "normal",
+                    "activeClass": "test-class",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/card-activation/CardActivation.tad",
+                    "code": "1002"
+                }, {
+                    "tradeName": "电子银行",
+                    "icon": "/static/resource/trademenu/new/dianziyinhang.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "",
+                    "tadPath": "",
+                    "children": [
+                        [
+                            {
+                                "categoryName": "电子银行",
+                                "themeColor": "#3e9cff",
+                                "layout": [
+                                    2, 2
+                                ],
+                                "items": [
+                                    {
+                                        "tradeName": "开通及变更",
+                                        "icon": "static/resource/trademenu/new/dianziyinhang.svg",
+                                        "size": "normal",
+                                        "activeClass": "test-class",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "/selfservice/src/modules/open-e-bank/OpenEBank.tad",
+                                        "code": "1003"
+                                    }, {
+                                        "tradeName": "账户解锁",
+                                        "icon": "static/resource/trademenu/new/zhanghujiesuo.svg",
+                                        "size": "normal",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "/selfservice/src/modules/e-bank-unlock/EBankUnlock.tad",
+                                        "code": "4004"
+                                    }, {
+                                        "tradeName": "登录密码重置",
+                                        "icon": "static/resource/trademenu/new/denglumimachongzhi.svg",
+                                        "size": "normal",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "/selfservice/src/modules/e-bank-reset-password/EBankResetPassword.tad",
+                                        "code": "4005"
+                                    }, {
+                                        "tradeName": "限额修改",
+                                        "icon": "static/resource/trademenu/new/xianexiugai.svg",
+                                        "size": "normal",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "/selfservice/src/modules/quotation-modify/QuotationModify.tad",
+                                        "code": "4006"
+                                    }, {
+                                        "tradeName": "电子银行注销",
+                                        "icon": "static/resource/trademenu/new/dianziyinhangzhuxiao.svg",
+                                        "size": "normal",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "/selfservice/src/modules/e-bank-logout/EBankLogout.tad",
+                                        "code": "7003"
+                                    }, {
+                                        "tradeName": "个人证书管理",
+                                        "icon": "static/resource/trademenu/new/gerenzhengshuguanli.svg",
+                                        "size": "normal",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "/selfservice/src/modules/PersonalCertificateManagement/PersonalCertificateManagement.tad",
+                                        "code": "7004"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }, {
+                    "tradeName": "密码重置",
+                    "icon": "static/resource/trademenu/new/mimachongzhi.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/card-reset-password/CardResetPassword.tad",
+                    "code": "1005"
+                }, {
+                    "tradeName": "挂失补发",
+                    "icon": "static/resource/trademenu/new/guashibufa.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/card-missing-reissue/CardMissingReissue.tad",
+                    "code": "1009"
+                }, {
+                    "tradeName": "存折业务",
+                    "icon": "static/resource/trademenu/new/cunzhebudeng.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "",
+                    "tadPath": "",
+                    "children": [
+                        [
+                            {
+                                "categoryName": "存折业务",
+                                "themeColor": "#3e9cff",
+                                "layout": [
+                                    1, 2
+                                ],
+                                "items": [
+                                    {
+                                        "tradeName": "存折补登",
+                                        "icon": "static/resource/trademenu/new/cunzhebudengIcon.svg",
+                                        "size": "normal",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "/selfservice/src/modules/passbook-deposit/PassbookDeposit.tad",
+                                        "code": "4002"
+                                    }, {
+                                        "tradeName": "存折加密",
+                                        "icon": "static/resource/trademenu/new/cunzhejiami.svg",
+                                        "size": "normal",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "/selfservice/src/modules/passbook-encryption/PassbookEncryption.tad",
+                                        "code": "7005"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "categoryName": "银行卡功能",
+            "themeColor": "#70d48a",
+            "layout": [
+                3, 2
+            ],
+            "items": [
+                {
+                    "tradeName": "账户查询",
+                    "icon": "static/resource/trademenu/new/zhanghuchaxun.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/query-amount/QueryAmount.tad",
+                    "code": "1007"
+                }, {
+                    "tradeName": "现金存取",
+                    "icon": "static/resource/trademenu/new/cunqukuan.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "",
+                    "tadPath": "",
+                    "children": [
+                        [
+                            {
+                                "categoryName": "现金存取",
+                                "themeColor": "#70d48a",
+                                "layout": [
+                                    1, 2
+                                ],
+                                "items": [
+                                    {
+                                        "id": "xjcr",
+                                        "tradeName": "现金存入",
+                                        "icon": "static/resource/trademenu/new/xianjincunru.svg",
+                                        "size": "normal",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "/selfservice/src/modules/cash-deposit/CashDeposit.tad",
+                                        "code": "5001"
+                                    }, {
+                                        "id": "xjzq",
+                                        "tradeName": "现金支取",
+                                        "icon": "static/resource/trademenu/new/xianjinzhiqu.svg",
+                                        "size": "normal",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "/selfservice/src/modules/cash-draw/CashDraw.tad",
+                                        "code": "5002"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }, {
+                    "tradeName": "存单业务",
+                    "icon": "static/resource/trademenu/new/cundan.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "",
+                    "tadPath": "",
+                    "children": [
+                        [
+                            {
+                                "categoryName": "存单业务",
+                                "themeColor": "#70d48a",
+                                "layout": [
+                                    1, 2
+                                ],
+                                "items": [
+                                    {
+                                        "id": "cdkh",
+                                        "tradeName": "存单开户",
+                                        "icon": "static/resource/trademenu/new/cundankaihu.svg",
+                                        "size": "normal",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "/selfservice/src/modules/deposit-receipt-create-account/DepositReceiptCreateAccount.tad",
+                                        "code": "6001"
+                                    }, {
+                                        "id": "cdxh",
+                                        "tradeName": "存单销户",
+                                        "icon": "static/resource/trademenu/new/cundanxiaohu.svg",
+                                        "size": "normal",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "selfservice/src/modules/deposit-receipt-destroy-account/DepositReceiptDestroyAccount.tad",
+                                        "code": "6002"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }, {
+                    "tradeName": "转账汇款",
+                    "icon": "static/resource/trademenu/new/zhuanzhanghuikuan.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/transfer-remittance/TransferRemittance.tad",
+                    "code": "1011"
+                }, {
+                    "tradeName": "身份证业务",
+                    "icon": "static/resource/trademenu/new/shenfenzhengyewu.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "",
+                    "tadPath": "",
+                    "code": "4001",
+                    "children": [
+                        [
+                            {
+                                "categoryName": "身份证业务",
+                                "themeColor": "#70d48a",
+                                "layout": [
+                                    2, 2
+                                ],
+                                "items": [
+                                    {
+                                        "tradeName": "客户信息维护",
+                                        "icon": "static/resource/trademenu/new/gerenxinxiweihu.svg",
+                                        "size": "normal",
+                                        "activeClass": "test-class",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "/selfservice/src/modules/personal-information-maintenanc/PersonalInformationMaintenanc.tad",
+                                        "code": "1003"
+                                    }, {
+                                        "tradeName": "身份证业务签约",
+                                        "icon": "static/resource/trademenu/new/shenfenzhengqukuanqianyue.svg",
+                                        "size": "normal",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "/selfservice/src/modules/idcard-withdraw-sign/IdcardWithdrawSign.tad",
+                                        "code": "7016"
+                                    }, {
+                                        "tradeName": "身份证业务解约",
+                                        "icon": "static/resource/trademenu/new/shenfenzhengqukuanjieyue.svg",
+                                        "size": "normal",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "/selfservice/src/modules/idcard-withdraw-cancel/IdcardWithdrawCancel.tad",
+                                        "code": "7014"
+                                    }, {
+                                        "tradeName": "身份证业务密码重置",
+                                        "icon": "static/resource/trademenu/new/shenfenzhengqukuanmimachongzhi.svg",
+                                        "size": "normal",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "/selfservice/src/modules/idcard-withdraw-reset-password/IdcardWithdrawResetPassword.tad",
+                                        "code": "7015"
+                                    }, {
+                                        "tradeName": "资金归集",
+                                        "icon": "/static/resource/trademenu/new/zijinguiji.svg",
+                                        "size": "normal",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "/selfservice/src/modules/fund-collection/FundCollection.tad",
+                                        "code": "7017"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }, {
+                    "tradeName": "综合签约",
+                    "icon": "static/resource/trademenu/new/zongheqianyue.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/synthesize-sign/SynthesizeSign.tad",
+                    "code": "2009"
+                }, {
+                    "tradeName": "卡解锁",
+                    "icon": "static/resource/trademenu/new/kajiesuo.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/card-unlock/CardUnlock.tad",
+                    "code": "1006"
+                }, {
+                    "tradeName": "I类II类户绑定",
+                    "icon": "static/resource/trademenu/new/1lei2leihubangding.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/oneandtwoclass-account-binding/OneandtwoclassAccountBinding.tad",
+                    "code": "7001"
+                }, {
+                    "tradeName": "恢复非柜业务",
+                    "icon": "static/resource/trademenu/new/huifufeiguiyewu.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/recover-no-bar-bussiness/RecoverNoBarBussiness.tad",
+                    "code": "4009"
+                }, {
+                    "tradeName": "账户升降级",
+                    "icon": "static/resource/trademenu/new/zhanghushengjiangji.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/account-upgrade-degrade/AccountUpgradeDegrade.tad",
+                    "code": "4012"
+                }, {
+                    "tradeName": "密码修改",
+                    "icon": "static/resource/trademenu/new/mimaxiugai.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/card-modify-password/CardModifyPassword.tad",
+                    "code": "1004"
+                }, {
+                    "tradeName": "短信通知",
+                    "icon": "static/resource/trademenu/new/duanxintongzhi.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/Info-message/InfoMessage.tad",
+                    "code": "4003"
+                }, {
+                    "tradeName": "不动户转正常户",
+                    "icon": "static/resource/trademenu/new/budonghuzhuanzhengchahu.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/immobile-convert-normal/ImmobileConvertNormal.tad",
+                    "code": "4007"
+                }, {
+                    "tradeName": "快速开卡",
+                    "icon": "static/resource/trademenu/new/kuaisukaika.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/fast-create-card/FastCreateCard.tad",
+                    "code": "1008"
+                }, {
+                    "tradeName": "其他证件开卡",
+                    "icon": "static/resource/trademenu/new/qitazhengjiankaika.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/otherid-create-card/OtheridCreateCard.tad",
+                    "code": "7012"
+                }, {
+                    "tradeName": "他行转入",
+                    "icon": "static/resource/trademenu/new/tahangzhuanru.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/other-bank-shift-to/OtherBankShiftTo.tad",
+                    "code": "7010"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "categoryName": "理财业务",
+            "themeColor": "#c576cd",
+            "layout": [
+                3, 2
+            ],
+            "items": [
+                {
+                    "tradeName": "理财签约",
+                    "icon": "static/resource/trademenu/new/licaiqianyue.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/financial-contract/FinancialContract.tad",
+                    "code": "3001"
+                }, {
+                    "tradeName": "理财购买",
+                    "icon": "static/resource/trademenu/new/licaigoumai.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/finanical-product-buying/FinanicalProductBuying.tad",
+                    "code": "3002"
+                }, {
+                    "tradeName": "个人理财",
+                    "icon": "static/resource/trademenu/new/gerenlicai.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/my-finanical-product/MyFinanicalProduct.tad",
+                    "code": "3003"
+                }, {
+                    "tradeName": "保险购买",
+                    "icon": "static/resource/trademenu/new/baoxiangoumai.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/Insurance/Insurance.tad",
+                    "code": "3004"
+                }, {
+                    "tradeName": "卡下定期",
+                    "icon": "static/resource/trademenu/new/kaxiadingqi.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/card-under-regular/CardUnderRegular.tad",
+                    "code": "1010"
+                }, {
+                    "tradeName": "大额存单认购",
+                    "icon": "static/resource/trademenu/new/daecundangoumai.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/certificate-deposit-buy/CertificateDepositBuy.tad",
+                    "code": "3005"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "categoryName": "城市服务",
+            "themeColor": "#ff993e",
+            "layout": [
+                3, 2
+            ],
+            "items": [
+                {
+                    "tradeName": "公交卡充值",
+                    "icon": "/static/resource/trademenu/new/gongjiaochongzhi.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/bus-card-recharge/BusCardRecharge.tad",
+                    "code": "2002"
+                }, {
+                    "tradeName": "水费签约",
+                    "icon": "static/resource/trademenu/new/shuiqianyue.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/water-sign/WaterSign.tad",
+                    "code": "2003"
+                }, {
+                    "tradeName": "自行车签约",
+                    "icon": "static/resource/trademenu/new/zixingcheqianyue.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/bike-sign/BikeSign.tad",
+                    "code": "2006"
+                }, {
+                    "tradeName": "自行车解约",
+                    "icon": "static/resource/trademenu/new/zixingchejieyue.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/bike-break-rewrite-select/BikeBreakRewriteSelect.tad",
+                    "code": "2007"
+                }, {
+                    "tradeName": "国地税签约",
+                    "icon": "static/resource/trademenu/new/guodishuiqianyue.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "",
+                    "tadPath": "",
+                    "children": [
+                        [
+                            {
+                                "categoryName": "国地税签约",
+                                "themeColor": "#ff993e",
+                                "layout": [
+                                    1, 2
+                                ],
+                                "items": [
+                                    {
+                                        "tradeName": "国税签约",
+                                        "icon": "static/resource/trademenu/new/guoshuiqianyue.svg",
+                                        "size": "normal",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "/selfservice/src/modules/NationLandSign/NationLandSign.tad",
+                                        "code": "4008"
+                                    }, {
+                                        "tradeName": "地税签约",
+                                        "icon": "static/resource/trademenu/new/dishuiqianyue.svg",
+                                        "size": "normal",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "/selfservice/src/modules/NationLandSign/NationLandSign.tad",
+                                        "code": "4011"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }, {
+                    "tradeName": "水电缴费",
+                    "icon": "static/resource/trademenu/new/shuidianjiaofei.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/payment-of-electricity-and-water/PaymentOfElectricityAndWater.tad",
+                    "code": "2008"
+                }, {
+                    "tradeName": "电费签约",
+                    "icon": "static/resource/trademenu/new/dianqianyue.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/electricity-sign/ElectricitySign.tad",
+                    "code": "2004"
+                }, {
+                    "tradeName": "燃气签约",
+                    "icon": "static/resource/trademenu/new/ranqiqianyue.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/gas-sign/GasSign.tad",
+                    "code": "2005"
+                }, {
+                    "tradeName": "公交卡查询",
+                    "icon": "/static/resource/trademenu/new/gongjiaochaxun.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/bus-card-select/BusCardSelect.tad",
+                    "code": "2001"
+                }, {
+                    "tradeName": "广电签约",
+                    "icon": "/static/resource/trademenu/new/guangdianqianyue.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/broadcast-television-sign/BroadcastTelevisionSign.tad",
+                    "code": "7011"
+                }, {
+                    "tradeName": "话费签约",
+                    "icon": "/static/resource/trademenu/new/huafeiqianyue.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/telephone-fee-signing/TelephoneFeeSigning.tad",
+                    "code": "7019"
+                }, {
+                    "tradeName": "医保签约",
+                    "icon": "/static/resource/trademenu/new/yibaoqianyue.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/medical-insurance-sign/MedicalInsuranceSign.tad",
+                    "code": "7018"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "categoryName": "信用卡服务",
+            "themeColor": "#f17c67",
+            "layout": [
+                3, 2
+            ],
+            "items": [
+                {
+                    "tradeName": "信用卡客户信息维护",
+                    "icon": "static/resource/trademenu/new/xinyongkakehuxinxiweihu.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/credit-card-customer-information-maintain/CreditCardCustomerInformationMaintain.tad",
+                    "code": "7006"
+                }, {
+                    "tradeName": "信用卡激活",
+                    "icon": "static/resource/trademenu/new/xinyongkajihuo.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/credit-card-activate/CreditCardActivate.tad",
+                    "code": "7007"
+                }, {
+                    "tradeName": "信用卡密码重置",
+                    "icon": "static/resource/trademenu/new/xinyongkamimachongzhi.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/credit-card-reset-password/CreditCardResetPassword.tad",
+                    "code": "7008"
+                }, {
+                    "tradeName": "信用卡密码修改",
+                    "icon": "static/resource/trademenu/new/xinyongkamimaxiugai.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/creditcard-modifypassword/CreditcardModifypassword.tad",
+                    "code": "7009"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "categoryName": "社保服务",
+            "themeColor": "red",
+            "layout": [
+                3, 2
+            ],
+            "items": [
+                {
+                    "tradeName": "社保查询和打印",
+                    "icon": "static/resource/trademenu/new/guodishuiqianyue.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "",
+                    "tadPath": "",
+                    "children": [
+                        [
+                            {
+                                "categoryName": "社保查询和打印",
+                                "themeColor": "#ff993e",
+                                "layout": [
+                                    1, 2
+                                ],
+                                "items": [
+                                    {
+                                        "tradeName": "社保缴费清单查询及打印",
+                                        "icon": "static/resource/trademenu/new/dishuiqianyue.svg",
+                                        "size": "normal",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "/selfservice/src/modules/social-sercurity-contribution/SocialInsuranceQueryAndPrint.tad",
+                                        "code": "7022"
+                                    }, {
+                                        "tradeName": "养老保险个人权益单查询及打印",
+                                        "icon": "static/resource/trademenu/new/dishuiqianyue.svg",
+                                        "size": "normal",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "/selfservice/src/modules/endowment-insurance-query-and-print/EndowmentInsuranceQueryAndPrint.tad",
+                                        "code": "7026"
+                                    }, {
+                                        "tradeName": "医保年度支付证明",
+                                        "icon": "static/resource/trademenu/new/xinyongkamimaxiugai.svg",
+                                        "size": "normal",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "/selfservice/src/modules/medical-insurance-pay-prove/MedicalInsurancePayProve.tad",
+                                        "code": "7028"
+                                    }, {
+                                        "tradeName": "医保个人费用查询及打印",
+                                        "icon": "static/resource/trademenu/new/guoshuiqianyue.svg",
+                                        "size": "normal",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "/selfservice/src/modules/social-insurance-query-and-print/SocialInsuranceQueryAndPrint.tad",
+                                        "code": "7037"
+                                    }, {
+                                        "tradeName": "个人参保证明查询和打印",
+                                        "icon": "static/resource/trademenu/new/dishuiqianyue.svg",
+                                        "size": "normal",
+                                        "isEnabled": true,
+                                        "navigationMode": "step",
+                                        "tadPath": "/selfservice/src/modules/persional-insured-certificate/PersionalInsuredCertificate.tad",
+                                        "code": "4011"
+                                    }
+                                ]
+                            }
+                        ]
+                    ]
+                }, {
+                    "tradeName": "社保缴费签约自动代扣",
+                    "icon": "static/resource/trademenu/new/xinyongkamimaxiugai.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/social-securiity-contribution-sign/SocialSecuriityContributionSign.tad",
+                    "code": "7009"
+                }, {
+                    "tradeName": "社保自动代扣业务撤销",
+                    "icon": "static/resource/trademenu/new/xinyongkamimaxiugai.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/social-securiity-contribution-cancel/SocialSecuriityContributionCancel.tad",
+                    "code": "7009"
+                }, {
+                    "tradeName": "退休体检报告查询",
+                    "icon": "static/resource/trademenu/new/ranqiqianyue.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/retire-medical-examination-report-query/RetireMedicalExaminationReportQuery.tad",
+                    "code": "2005"
+                }, {
+                    "tradeName": "医保个人账户查询",
+                    "icon": "static/resource/trademenu/new/xinyongkamimaxiugai.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/individual-medical-insurance/IndividualMedicalInsurance.tad",
+                    "code": "7010"
+                }, {
+                    "tradeName": "社保缴费业务",
+                    "icon": "static/resource/trademenu/new/xinyongkamimaxizhanghongliangugai.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/social-security-pay/SocialSecurityPay.tad",
+                    "code": "7012"
+                }, {
+                    "tradeName": "测试SDK",
+                    "icon": "static/resource/trademenu/new/xinyongkamimaxiugai.svg",
+                    "size": "normal",
+                    "isEnabled": true,
+                    "navigationMode": "step",
+                    "tadPath": "/selfservice/src/modules/test-sdk/TestSdk.tad",
+                    "code": "7009"
+                }
+            ]
+        }
+    ]
+]

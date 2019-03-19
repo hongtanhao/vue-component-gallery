@@ -15,6 +15,41 @@ path: '/table'  # demo 路由
 ## 使用table组件
 + pages目录下的 `UseTable.vue`
 
+其中：`UseTable.vue` 代码片段说明
+表格数据结构必须这样：
+```javascript
+export default {
+  name: 'UseTable',
+  data() {
+    return {
+      dataTable: {
+        display: {
+            textAlign: 'center', // 表头文本排列样式
+            rowHeight: '40', // 行高
+            style: 'normal', // 表格风格
+            thHeight: '40'
+        },
+        tcols: [// 数组长度代表了列数
+            {
+              name: 'order',
+              label: '序号' // 表头显示的文本值
+            },
+            {
+              name: 'name',
+              label: '姓名' // 表头显示的文本值
+            }
+        ],
+        trows: [// 数组长度代表了行数
+            {
+              order: '1', // 必须取tcols每一项中 `value`
+              name: '王小虎'
+            }
+        ]
+      }
+    };
+  }, 
+```
+
 路由`router/index.js`
 ```javascript
 import Vue from 'vue'
